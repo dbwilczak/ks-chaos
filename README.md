@@ -6,7 +6,7 @@
 - [Introduction](#introduction)
 - [Numerical constants used in the proof](#constants)
 - [Description of h-sets](#hsets)
-- [List of h-sets that appear in the computation](hsets)
+- [List of h-sets that appear in the computation](#hsets)
 - [The C++-17 programs](#program)
   - [Required resources](#requirements)
   - [Compilation of the program](#gcc)
@@ -42,7 +42,8 @@ In order to reduce overestimation in rigorous computation of Poincare maps, each
 Each h-set that appears in the computation is described by the following data:
 - $`S\geq 0`$ - constant used to define geometrically decaying tail $`|a_k|\leq Sq^{-k}`$ for $`k\geq m`$
 - $`a = (a_1,\ldots,a_m)`$ - this is the centre of an h-set (an approximate periodic or heteroclinic point), represented as&nbsp; $`m-`$dimensional vector with $`a_1=0`$<br/>
-    *Note that approximate periodic and heteroclinic points have been found on the section $`\Pi = \{ a_1=0 \ \text{and}\ a_1'>0\}`$*
+    *Note that approximate periodic and heteroclinic points have been found on the section* 
+    > $`\Pi = \{ a_1=0 \ \text{and}\ a_1'>0\}`$
 - $`E`$  - $`m\times m`$ - almost orthogonal matrix (up to floating point accuracy) used to define Poincare section. First column of the matrix is close to flow direction at $`a`$, while the remaining columns span $`(m-1)`$-dimensional subspace of the section. 
 Formally, the section is given by 
 > $`\Pi = \{ (x_k)_{k=1}^\infty | \pi_1 E*(\pi_{\leq m}x-a) = 0 \}`$
