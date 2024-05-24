@@ -151,8 +151,10 @@ The executable ```check_stable_po``` is built from the following source
 - During the computation it prints to the standard output computed approximate periodic orbit, bounds from the validation of the existence of this periodic orbit and, finally, bounds on the norm of the derivative of Poincare map.
 
 Here are two sample outputs of the program (as reported in the article):
--[**output/outStablePeriodicOrbitDim15**](output/outStablePeriodicOrbitDim15) - validation in effective dimension 15 and larger tolerance $`10^{-7}`$ of the PDE solver<br/>
--[**output/outStablePeriodicOrbitDim18**](output/outStablePeriodicOrbitDim18) - validation in effective dimension 18 and smaller tolerance $`10^{-11}`$ of the PDE solver<br/>
+
+[**output/outStablePeriodicOrbitDim15**](output/outStablePeriodicOrbitDim15) - validation in effective dimension 15 and larger tolerance $`10^{-7}`$ of the PDE solver<br/>
+
+[**output/outStablePeriodicOrbitDim18**](output/outStablePeriodicOrbitDim18) - validation in effective dimension 18 and smaller tolerance $`10^{-11}`$ of the PDE solver<br/>
 
 By default the program runs computation in dimension 15 (much faster) - see <b>main</b> function in [**progs/check_stable_po.cpp**](progs/check_stable_po.cpp) for details.
 
