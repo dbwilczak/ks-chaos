@@ -115,7 +115,7 @@ The program is based on the [**CAPD library**](http://capd.ii.uj.edu.pl) which p
 - data structures and algorithms for rigorous integration of ODEs
 - data structures and algorithms for rigorous computation of Poincare maps
 
-In an empty directory: clone source code of the CAPD library and compile it
+In an empty directory:
 
 - clone source code of the CAPD library and compile it  
   ```
