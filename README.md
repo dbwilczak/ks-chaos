@@ -42,7 +42,7 @@ In order to reduce overestimation in rigorous computation of Poincare maps, each
 Each h-set that appears in the computation is described by the following data:
 - $`S\geq 0`$ - constant used to define geometrically decaying tail $`|a_k|\leq Sq^{-k}`$ for $`k\geq m`$
 - $`a = (a_1,\ldots,a_m)`$ - this is the centre of an h-set (an approximate periodic or heteroclinic point), represented as&nbsp; $`m-`$dimensional vector with $`a_1=0`$<br/>
-    *Note that approximate periodic and heteroclinic points have been found on the section $`\Pi = \{ a_1=0 \wedge a_1'>0\}`$*
+    *Note that approximate periodic and heteroclinic points have been found on the section $`\Pi = \{ a_1=0 \ \text{and}\ a_1'>0\}`$*
 - $`E`$  - $`m\times m`$ - almost orthogonal matrix (up to floating point accuracy) used to define Poincare section. First column of the matrix is close to flow direction at $`a`$, while the remaining columns span $`(m-1)`$-dimensional subspace of the section. 
 Formally, the section is given by 
 > $`\Pi = \{ (x_k)_{k=1}^\infty | \pi_1 E*(\pi_{\leq m}x-a) = 0 \}`$
@@ -53,7 +53,7 @@ The remaining $`(m-1)\times(m-1)`$ block defines an affine change of coordinates
 - $`r = (r_1,\ldots,r_m`$ - an interval vector centred at zero, with $`r_1=[0,0]`$. It defines size of an h-set in the main $`(m-1)`$ coordinates on the section
 
 The above data structure $`[S,a,E,B,r]`$ defines an h-set $`H`$ by
-> $`\pi;_{\leq m}H = a + E*B*r`$<br/>
+> $`\pi_{\leq m}H = a + E*B*r`$<br/>
 > $`H_k = [-S,S]q^{-k}`$ for $`k>m`$
   
 
@@ -121,14 +121,14 @@ In an empty directory: clone source code of the CAPD library and compile it
     ```
       git clone https://github.com/CAPDGroup/CAPD
       cd CAPD && mkdir build && cd build 
-      cmake ../CAPD -DCAPD_ENABLE_MULTIPRECISION=false -DCAPD_BUILD_EXAMPLES=false
+      cmake .. -DCAPD_ENABLE_MULTIPRECISION=false -DCAPD_BUILD_EXAMPLES=false
       make -j
       cd ../../
     ```
 - after succesfull compilation of the CAPD library clone source code of the main programs and compile them
     ```
       git clone https://github.com/dbwilczak/ks-chaos
-      cd ks-chaos 
+      cd ks-chaos && mkdir dep && mkdir obj
       make 
     ```
 - After succesfull compilation three executables are created:
