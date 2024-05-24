@@ -6,7 +6,7 @@
 - [Introduction](#introduction)
 - [Numerical constants used in the proof](#constants)
 - [Description of h-sets](#hsets)
-- [List of h-sets that appear in the computation](#listhsets)
+- [List of h-sets that appear in the computation](hsets)
 - [The C++-17 programs](#program)
   - [Required resources](#requirements)
   - [Compilation of the program](#gcc)
