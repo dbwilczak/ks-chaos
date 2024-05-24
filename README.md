@@ -65,17 +65,12 @@ File names correspond to notation used in the article.
 
 ### H-sets at periodic points
 
-[**N1.txt**](hsets/N1.txt) - the h-set centred at an approximate period two point $`a^1`$ of Poincare map on the section $`a_1=0`$
-
-[**N2.txt**](hsets/N2.txt) - the h-set centred at an approximate period four point $`a^2`$ of Poincare map on the section $`a_1=0`$
-
-[**M.txt**](hsets/M.txt) - the h-set centred at an approximate period two point $`P(a^1)`$ of Poincare map on the section $`a_1=0`$
-
-[**K1.txt**](hsets/K1.txt) - the h-set centred at an approximate period four point $`P(a^2)`$ of Poincare map on the section $`a_1=0`$
-
-[**K2.txt**](hsets/K2.txt) - the h-set centred at an approximate period four point $`P^2(a^2)`$ of Poincare map on the section $`a_1=0`$
-
-[**K3.txt**](hsets/K3.txt) - the h-set centred at an approximate period four point $`P^3(a^2)`$ of Poincare map on the section $`a_1=0`$
+- [**N1.txt**](hsets/N1.txt) - the h-set centred at an approximate period two point $`a^1`$ of Poincare map on the section $`a_1=0`$
+- [**N2.txt**](hsets/N2.txt) - the h-set centred at an approximate period four point $`a^2`$ of Poincare map on the section $`a_1=0`$
+- [**M.txt**](hsets/M.txt) - the h-set centred at an approximate period two point $`P(a^1)`$ of Poincare map on the section $`a_1=0`$
+- [**K1.txt**](hsets/K1.txt) - the h-set centred at an approximate period four point $`P(a^2)`$ of Poincare map on the section $`a_1=0`$
+- [**K2.txt**](hsets/K2.txt) - the h-set centred at an approximate period four point $`P^2(a^2)`$ of Poincare map on the section $`a_1=0`$
+- [**K3.txt**](hsets/K3.txt) - the h-set centred at an approximate period four point $`P^3(a^2)`$ of Poincare map on the section $`a_1=0`$
 
 ### H-sets along $`a^1\to a^2`$ heteroclinic chain
   - [**N0_12.txt**](hsets/N0_12.txt) - the h-set $`N^0_{1\to2}`$
