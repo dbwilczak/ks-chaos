@@ -1,6 +1,6 @@
 # KS-CHAOS: supplement to the article 
 
-### Daniel Wilczak and Piotr Zgliczy&#324;ski, Symbolic dynamics for the Kuramoto-Sivashinsky PDE on the line II
+### Daniel Wilczak and Piotr Zgliczy&#324;ski<br>, Symbolic dynamics for the Kuramoto-Sivashinsky PDE on the line II
 
 ## Table of content
 
