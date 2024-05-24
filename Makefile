@@ -1,4 +1,4 @@
-CAPD = ./build/bin/
+CAPD = ../CAPD/build/bin/
 INCLUDE = `$(CAPD)capd-config --cflags` -I.
 LIBS = `$(CAPD)capd-config --libs` -lpthread
 FLAGS = -O2 -s $(INCLUDE)

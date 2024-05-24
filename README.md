@@ -120,17 +120,17 @@ In an empty directory: clone source code of the CAPD library and compile it
 - clone source code of the CAPD library and compile it  
     ```
       git clone https://github.com/CAPDGroup/CAPD
-      mkdir build
-      cd build 
-      cmake CAPD -DCAPD_ENABLE_MULTIPRECISION=false -DCAPD_BUILD_EXAMPLES=false
+      cd CAPD && mkdir build && cd build 
+      cmake ../CAPD -DCAPD_ENABLE_MULTIPRECISION=false -DCAPD_BUILD_EXAMPLES=false
       make -j
+      cd ../../
     ```
 - after succesfull compilation of the CAPD library clone source code of the main programs and compile them
     ```
       git clone https://github.com/dbwilczak/ks-chaos
-      make CAPD=./build/bin/
+      cd ks-chaos 
+      make 
     ```
-  *Note: in the last line put valid relative or absolute path to the CAPD build directory.*
 - After succesfull compilation three executables are created:
   - **check_stable_po**
   - **check_cone_conditions** and 
