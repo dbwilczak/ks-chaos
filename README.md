@@ -225,7 +225,7 @@ The program consists ot three executables. They use several algorithms and auxil
 - [**include/HSet.h**](include/HSet.h)<br>
     data structure that represents an h-set
 - [**include/LDKSPoincareMap.h**](include/LDKSPoincareMap.h)<br>
-    a wrapper for the classes **LDOdeSolver* and **LDPoincareMap** from the [**CAPD library**](http://capd.ii.uj.edu.pl). This class is used for nonrigrous integration (in long double precision), for instance to find a candidate of a stable periodic orbit by simple iteration.
+    a wrapper for the classes **LDOdeSolver** and **LDPoincareMap** from the [**CAPD library**](http://capd.ii.uj.edu.pl). This class is used for nonrigrous integration (in long double precision), for instance to find a candidate of a stable periodic orbit by simple iteration.
 - [**include/IKSPoincareMap.h**](include/IKSPoincareMap.h)<br> 
     a wrapper for the classes **PdeSolver** and **IPoincareMap** from the [**CAPD library**](http://capd.ii.uj.edu.pl). This class is used in rigorous integration. It provides in particular algorithms for computation of Poincare maps and derivatives in given coordinate systems in domain and codomain.
 - [**include/ComputeImageTask.h**](include/ComputeImageTask.h)<br>
