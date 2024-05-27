@@ -165,8 +165,8 @@ The program creates and runs **3x30=90 concurrent tasks** for verification of th
 
 -  $`N^1\Longrightarrow M \Longrightarrow N^1`$
 -  $`N^2\Longrightarrow K_1\Longrightarrow K_2\Longrightarrow K_3\Longrightarrow N^2`$
--  $`N^1\Longrightarrow N^0_{1\to2}\Longrightarrow => N^1_{1\to2}\Longrightarrow\cdots\Longrightarrow N^{10}_{1\to2}\Longrightarrow N^1`$
--  $`N^2\Longrightarrow N^0_{2\to1}\Longrightarrow => N^1_{2\to1}\Longrightarrow\cdots\Longrightarrow N^{10}_{2\to1}\Longrightarrow N^2`$
+-  $`N^1\Longrightarrow N^0_{1\to2}\Longrightarrow N^1_{1\to2}\Longrightarrow\cdots\Longrightarrow N^{10}_{1\to2}\Longrightarrow N^1`$
+-  $`N^2\Longrightarrow N^0_{2\to1}\Longrightarrow N^1_{2\to1}\Longrightarrow\cdots\Longrightarrow N^{10}_{2\to1}\Longrightarrow N^2`$
 
 **Comments**
 
