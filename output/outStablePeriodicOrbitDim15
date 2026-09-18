@@ -12,17 +12,17 @@ u^0_{15}=-6.6189187748204272\cdot 10^{-8} &
 
 Preliminary computation of a candidate set K for further validation ...
 
-Start Computing image: Fri Oct  6 23:58:09 2023
+Start Computing image: Fri Sep 18 15:52:30 2026
 
-Computation completed: Fri Oct  6 23:58:34 2023
-Elapsed time: 0.42522333453333339 minutes (25.513400072000003 seconds)
+Computation completed: Fri Sep 18 15:52:47 2026
+Elapsed time: 0.28798827911666669 minutes (17.279296747 seconds)
 
 Compute PS(K) and check the inclusion PS(K)\subset K ...
 
-Start Computing image: Fri Oct  6 23:58:34 2023
+Start Computing image: Fri Sep 18 15:52:47 2026
 
-Computation completed: Fri Oct  6 23:59:00 2023
-Elapsed time: 0.42583518900000006 minutes (25.550111340000001 seconds)
+Computation completed: Fri Sep 18 15:53:04 2026
+Elapsed time: 0.28817984178333339 minutes (17.290790507000001 seconds)
 \begin{array}{|c|c|c|}
 i & u  & r \\
 2 & 2.0239443104283055\cdot 10^{-5} & 1.9984745125462244\cdot 10^{-5}\\
@@ -43,13 +43,13 @@ C & 1.8109411644532836\cdot 10^{-4} & 1.4662868401667173\cdot 10^{-4}\\
 \end{array}
 ====>validated=1
 
-Start Computing derivative: Fri Oct  6 23:59:00 2023
+Start Computing derivative: Fri Sep 18 15:53:04 2026
 
-Computation completed: Sat Oct  7 00:02:28 2023
-Elapsed time: 3.4748197983000004 minutes (208.48918789800001 seconds)
+Computation completed: Fri Sep 18 15:55:15 2026
+Elapsed time: 2.1713820716500001 minutes (130.282924299 seconds)
 ====>PxxNorm=[0, 0.81688921593206099]
 ====>PxyNorm=[0.10577033056859826, 0.10577033056859826]
-====>PyxNorm=[2.3369305048290962e-321, 9.6470917220244222e-15]
+====>PyxNorm=[2.5617303736868633e-320, 9.6470917220244222e-15]
 ====>PyyNorm=[3.0149012481882832e-08, 3.0149012481882832e-08]
 ====>norm=[0.92265954650065929, 0.92265954650065929]
 ====>validated=1
